@@ -1,9 +1,10 @@
 
 ## API Nodejs
 
-```
-API utilizando node, nodemon e moongose.
-```
+API com CRUD completo para o objeto `person`, utilizando node, nodemon e moongose.
+Instacia do banco de dados do mongodb atlas.
+Front end completo porém sem estilização em `https://github.com/jeangondorek/front-end-api-rest-nodejs`
+
 
 #### Retorna todos os itens
 
@@ -40,7 +41,6 @@ API utilizando node, nodemon e moongose.
   {       
     "name": "myname",
     "salary": 500.5,
-    "approved": false
 }
   ```
   ```
@@ -48,7 +48,6 @@ API utilizando node, nodemon e moongose.
 | :---------- | :--------- | :------------------------------------------ |
 | `name`      | `string`   | **Obrigatório**. O NOME nesse item          |
 | `salary`    | `number`   | **Obrigatório**. O SALÁRIO nesse item       |
-| `approved`  | `boolean`  | **Obrigatório**. True ou False nesse item   |
 ```
 ## Instalando api
 
@@ -56,4 +55,3 @@ API utilizando node, nodemon e moongose.
 - ```npm install nodemon```
 ## Rodando api
 - ```npm start```
-# APICODESPACES
