@@ -1,13 +1,58 @@
-# GitHub Codespaces ♥️ Express
 
-Welcome to your shiny new Codespace running Express! We've got everything fired up and running for you to explore Express.
-
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
-
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
-
-To run this application:
+## API Nodejs
 
 ```
-npm start
+API utilizando node, nodemon e moongose.
 ```
+
+#### Retorna todos os itens
+
+```
+  GET /person/
+  example
+  http://localhost:3001/person
+```
+#### Retorna um item
+
+```
+  GET /person/${id}
+  example
+  http://localhost:3001/person/{id}
+```
+#### Deleta um dos itens
+
+```
+  DELETE /person/${id}
+  example
+  http://localhost:3001/person/{id}
+```
+
+#### Cria um iten
+```
+  POST /person/
+  example
+  http://localhost:3001/person/{id}
+```
+  #### No JSON strutcutre example to POST
+
+
+  ```
+  {       
+    "name": "myname",
+    "salary": 500.5,
+    "approved": false
+}
+  ```
+  ```
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `name`      | `string`   | **Obrigatório**. O NOME nesse item          |
+| `salary`    | `number`   | **Obrigatório**. O SALÁRIO nesse item       |
+| `approved`  | `boolean`  | **Obrigatório**. True ou False nesse item   |
+```
+## Instalando api
+
+- ```npm install```
+- ```npm install nodemon```
+## Rodando api
+- ```npm start```
