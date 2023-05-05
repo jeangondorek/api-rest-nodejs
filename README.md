@@ -58,3 +58,6 @@ Front end completo porém sem estilização em:
 | :---------- | :--------- | :------------------------------------------ |
 | `name`      | `string`   | **Obrigatório**. O NOME nesse item          |
 | `salary`    | `number`   | **Obrigatório**. O SALÁRIO nesse item       |
+
+
+![GitHub](https://img.shields.io/github/license/jeangondorek/api-rest-nodejs?style=for-the-badge)
