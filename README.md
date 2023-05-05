@@ -1,6 +1,6 @@
 
 ## API Nodejs
-https://img.shields.io/github/languages/count/jeangondorek/api-rest-nodejs?style=for-the-badge
+
 Desenvolvido usando o codespaces do github.
 
 API com CRUD completo para o objeto `person`, utilizando node, nodemon e moongose.
