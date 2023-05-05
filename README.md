@@ -1,6 +1,8 @@
 
 ## API Nodejs
 
+Desenvolvido usando o codespaces do github.
+
 API com CRUD completo para o objeto `person`, utilizando node, nodemon e moongose.
 Instacia do banco de dados do mongodb atlas.
 
