@@ -52,9 +52,7 @@ Front end completo porém sem estilização em:
     "salary": 500.5,
 }
   ```
-  ```
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `name`      | `string`   | **Obrigatório**. O NOME nesse item          |
 | `salary`    | `number`   | **Obrigatório**. O SALÁRIO nesse item       |
-```
