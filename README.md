@@ -3,8 +3,17 @@
 
 API com CRUD completo para o objeto `person`, utilizando node, nodemon e moongose.
 Instacia do banco de dados do mongodb atlas.
-Front end completo porém sem estilização em `https://github.com/jeangondorek/front-end-api-rest-nodejs`
 
+Front end completo porém sem estilização em:
+
+[FRONT END API NODE](https://github.com/jeangondorek/front-end-api-rest-nodejs)
+
+## Instalando api
+
+- ```npm install```
+- ```npm install nodemon```
+## Rodando api
+- ```npm start```
 
 #### Retorna todos os itens
 
@@ -43,15 +52,7 @@ Front end completo porém sem estilização em `https://github.com/jeangondorek/
     "salary": 500.5,
 }
   ```
-  ```
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `name`      | `string`   | **Obrigatório**. O NOME nesse item          |
 | `salary`    | `number`   | **Obrigatório**. O SALÁRIO nesse item       |
-```
-## Instalando api
-
-- ```npm install```
-- ```npm install nodemon```
-## Rodando api
-- ```npm start```
