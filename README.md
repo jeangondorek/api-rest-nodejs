@@ -8,6 +8,12 @@ Front end completo porém sem estilização em:
 
 [FRONT END API NODE](https://github.com/jeangondorek/front-end-api-rest-nodejs)
 
+## Instalando api
+
+- ```npm install```
+- ```npm install nodemon```
+## Rodando api
+- ```npm start```
 
 #### Retorna todos os itens
 
@@ -52,9 +58,3 @@ Front end completo porém sem estilização em:
 | `name`      | `string`   | **Obrigatório**. O NOME nesse item          |
 | `salary`    | `number`   | **Obrigatório**. O SALÁRIO nesse item       |
 ```
-## Instalando api
-
-- ```npm install```
-- ```npm install nodemon```
-## Rodando api
-- ```npm start```
