@@ -25,14 +25,14 @@ app.get('/',(req, res) => {
 
     res.json({message: 'oi express'})
 })
-const DB_USER = 'jeancanova'
-const DB_PASSWD = encodeURIComponent('jeancanova')
+const DB_USER = 'USER'
+const DB_PASSWD = encodeURIComponent('SENHA')
 
 
 //porta
 mongoose
 .connect(
-    `mongodb+srv://${DB_USER}:${DB_PASSWD}@cluster0.zrc3du2.mongodb.net/`,
+    `LINK MONGO DB`,
     //mongodb+srv://${DB_USER}:${DB_PASSWD}@LINK
     )
 
