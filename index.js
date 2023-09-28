@@ -1,12 +1,14 @@
 // config inicial
+require('dotenv').config();
 const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
 
+const URL = process.env.URL;
+const PORT = process.env.PORT;
 
 const cors = require('cors');
 app.use(cors({ origin: true }));
-
 
 //forma de ler json
 app.use(
@@ -22,23 +24,18 @@ app.use('/person', personRoutes)
 //rota
 app.get('/',(req, res) => {
     //mostar req
-
     res.json({message: 'oi express'})
 })
-const DB_USER = 'USER'
-const DB_PASSWD = encodeURIComponent('SENHA')
-
 
 //porta
 mongoose
 .connect(
-    `LINK MONGO DB`,
-    //mongodb+srv://${DB_USER}:${DB_PASSWD}@LINK
+    URL
     )
 
 .then(() => {
     console.log('conectado ao mongo db')
-    app.listen(3001)
+    app.listen(PORT)
 })
 
 .catch((err)=> console.log(err))
